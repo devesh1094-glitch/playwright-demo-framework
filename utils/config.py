@@ -14,8 +14,8 @@ class Config:
     }
 
     API_BASE_URLS = {
-        "staging": "https://reqres.in/api",
-        "prod": "https://reqres.in/api",
+        "staging": "https://jsonplaceholder.typicode.com",
+        "prod": "https://jsonplaceholder.typicode.com",
     }
 
     HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
